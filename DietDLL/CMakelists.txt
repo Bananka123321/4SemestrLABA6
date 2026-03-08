@@ -1,0 +1,3 @@
+add_library(DietDLL SHARED src/CaloriesService.cpp src/Celery.cpp src/CeleryFactory.cpp src/Cucumber.cpp src/CucumberFactory.cpp src/CylinderVegetable.cpp src/Salad.cpp src/StemVegetable.cpp src/Vegetable.cpp src/VegetableFactory.cpp src/ConsoleView.cpp src/App.cpp)
+
+target_include_directories(DietDLL PUBLIC include)
